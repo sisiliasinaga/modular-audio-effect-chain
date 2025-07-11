@@ -1,6 +1,8 @@
 from audio_effects.base import AudioEffect
 import numpy as np
 
+# strategy pattern: define family of algorithms and make them interchangeable
+# does this by using an abstract base class and then subclasses of ReverbAlgorithm
 class ReverbAlgorithm:
     def process(self, signal: np.ndarray) -> np.ndarray:
         raise NotImplementedError
