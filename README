@@ -1,0 +1,3 @@
+An app that lets users dynamically configure an audio signal chain and apply effects such as EQ, reverb, delay, etc. and adjust their parameters.
+
+Currently prototyping in Python and will work to add an interactive frontend soon.
